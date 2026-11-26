@@ -1,3 +1,7 @@
+:root {
+    --speed-size: 54px;
+}
+
 #vt-speed-indicator {
     position: fixed;
     bottom: 80px;
@@ -20,10 +24,11 @@
 }
 
 .vt-speed-icon {
-    width: 24px;
-    height: 24px;
+    /* df: 24 */
+    width: var(--speed-size);
+    height: var(--speed-size);
     margin-right: 16px;
-    font-size: 24px;
+    font-size: var(--speed-size);
     font-family: 'YouTube Icons Outlined';
 }
 
@@ -32,7 +37,8 @@
 }
 
 .vt-speed-text {
-    font-size: 18px;
+    /* df: 18 */
+    font-size: var(--speed-size);
     font-weight: 500;
     min-width: 30px;
     text-align: right;
