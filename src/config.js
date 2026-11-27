@@ -62,7 +62,8 @@ const defaults = {
   screensaver_dim_percentage: 75, //percentage to dim the screen (e.g. 75 = 75% dark)
   key_speed_down: "[",
   key_speed_up: "]",
-  key_speed_toggle: "s", // `s` also disable search when in player
+  key_speed_toggle: "f",
+  key_intro_seek: "s", // `s` also disable search when in player
 };
 
 function init(overrides = {}) {
